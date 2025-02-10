@@ -17,7 +17,7 @@
 
 /* ***Event form*** */
 #event-subscription {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/moto5.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.621), rgba(0, 0, 0, 0.653)), url("../img/moto5.jpg");
   background-position: center;
   background-size: cover;
   padding: 2em;
@@ -126,10 +126,112 @@ img.moto {
   justify-content: center;
   gap: 200px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .moto-item {
   text-align: center;
+}
+
+/* local */
+/* Localização do evento */
+#localizacao {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("img/hd1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--cor-texto);
+  margin-bottom: 3em;
+}
+
+#endereco,
+#sobre-local {
+  max-width: 30%;
+}
+
+#endereco {
+  display: flex;
+  align-items: center;
+}
+
+#endereco img { 
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+
+
+#detalhes-endereco {
+  text-align: center;
+  font-size: 1.0em;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+  
+
+
+#sobre-local h3 {
+  color: var(--primary);
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+  
+#sobre-local p {
+  line-height: 1.5em;
+}
+/* Localização do evento */
+#localizacao {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.628)),
+  url(../img/hd1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* Organiza os itens verticalmente */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 3em;
+}
+
+#endereco,
+#sobre-local {
+  max-width: 60%;
+  text-align: center;
+}
+
+#endereco {
+  display: flex;
+  flex-direction: column; /* Centraliza o ícone e os detalhes do endereço */
+  align-items: center;
+}
+  
+#endereco i {
+  color: var(--primary);
+  font-size: 5em; 
+  margin-bottom: 0.5em;
+}
+
+#detalhes-endereco {
+  font-size: 1.3em;
+}
+
+#sobre-local h3 {
+  color: var(--primary);
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+  
+#sobre-local p {
+  line-height: 1.5em;
 }
 
 
