@@ -103,27 +103,34 @@
   opacity: 1;
 }
 
+/* Estilização do título */
+.texto h2 {
+  text-align: center;
+  background-color: #95989a;
+  padding: 30px;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
+/* Estilização das imagens */
+img.moto {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
 
-/* 1ª Digitação (Aqui) */
-.exe {  /* sobre */
-  padding: 50px;
-  height: 40rem;
+/* Centralizando os itens */
+.motos {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: left;
+  gap: 200px;
+  margin-top: 20px;
 }
 
-. {
-  color: var(--cor-primaria);
+.moto-item {
   text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 20px;
 }
-
 
 
 
